@@ -22,7 +22,7 @@ We have given with 5815 training audio data set and 2492 validation data set whi
 ## Approach
 
 I have extracted Mel-Frequency Cepstral Coefficients(MFCC) from the audio samples using librosa library.
-Trained using these features in deep learning and Machine Learning Models and selected best performning model.
+Trained using these features in deep learning and Machine Learning Models and selected best performing model.
 
 Another Approach Tried is by Converting the audio to Image and using CNN, Transfer Learning (VGG19 from imagenet)
 
