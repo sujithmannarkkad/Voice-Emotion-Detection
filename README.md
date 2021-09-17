@@ -1,5 +1,5 @@
 
-# Voice Emotion Classification
+# Voice Emotion Detection
 
 This is a voice classification model which was part of a Hacker earth competition.
 (https://www.hackerearth.com/challenges/competitive/ia-for-ai/)
