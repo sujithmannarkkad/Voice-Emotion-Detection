@@ -46,7 +46,11 @@ We have given with 5815 training audio data set and 2492 validation data set whi
 ```
 
 - Download the train, test files using the given link. Unzip to the root folder.
-- If only Inference part need to be checked download the trained model provided and keep in the root foder, and execute the Demo section in the Final-Submission.ipynb after installing and importing necessary libraries.
+- If only Inference part need to be checked, download the trained model provided and keep in the root foder, and execute the Demo section in the Final-Submission.ipynb after installing and importing necessary libraries.
+- Use GPU enabled instance for faster execution.
+- Read the instructions carefully in each cells before executing them.
+- Execution of couple of cells may take more than 1 hr, alternative way for that is to skip the cells and read from the pickled files. The instructions for the same is given in the notebook.
+- Code for auto download of submission file will work only in colab (enable allow multiple files download option in browser when it is prompted). 
   
 ## Acknowledgements
 
