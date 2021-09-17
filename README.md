@@ -3,6 +3,7 @@
 
 This is a voice classification model which was part of a Hacker earth competition.
 (https://www.hackerearth.com/challenges/competitive/ia-for-ai/)
+
 We have given with 5815 training audio data set and 2492 validation data set which has 7 different emotions ('neutral','joy','disgust','surprise','sadness','fear','anger').
 
 
