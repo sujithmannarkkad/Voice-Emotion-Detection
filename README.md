@@ -19,7 +19,84 @@ We have given with 5815 training audio data set and 2492 validation data set whi
 
 ![App Screenshot](https://raw.githubusercontent.com/sujithmannarkkad/Voice-Emotion-Detection/main/data%20distribution.png)
 
-  
+## Approach
+
+I have extracted Mel-Frequency Cepstral Coefficients(MFCC) from the audio samples using librosa library.
+Trained using these features in deep learning and Machine Learning Models and selected best performning model.
+
+Another Approach Tried is by Converting the audio to Image and using CNN, Transfer Learning (VGG19 from imagenet)
+
+I have used full data from training.
+
+## Models Tried
+- Custom Deep Learning Model
+- CatBoostClassifier
+- LogisticRegression
+- KNeighborsClassifier
+- DecisionTreeClassifier
+- GradientBoostingClassifier
+- ExtraTreesClassifier
+- LGBMClassifierXGBClassifier
+- RandomForestClassifier
+- OneVsRestClassifier with XGBClassifier
+
+
+- catboost gave me better result (58.87663) in Hacker Earth while submitting predicion file.
+
+## Results from the models
+```bash
+CatBoost
+Train Accuracy:  1.00,  Test Accuracy:  0.56
+Train Precision:  1.00,  Test Precision:  0.58
+Train Recall:  1.00,  Test Recall:  0.39
+
+
+Logreg C=0.01
+Train Accuracy:  0.33,  Test Accuracy:  0.30
+Train Precision:  0.38,  Test Precision:  0.34
+Train Recall:  0.40,  Test Recall:  0.35
+
+KNN
+Train Accuracy:  0.61,  Test Accuracy:  0.47
+Train Precision:  0.60,  Test Precision:  0.36
+Train Recall:  0.46,  Test Recall:  0.32
+
+Decision Tree
+Train Accuracy:  1.00,  Test Accuracy:  0.43
+Train Precision:  1.00,  Test Precision:  0.36
+Train Recall:  1.00,  Test Recall:  0.36
+
+GradientBoost
+Train Accuracy:  0.71,  Test Accuracy:  0.52
+Train Precision:  0.92,  Test Precision:  0.47
+Train Recall:  0.62,  Test Recall:  0.33
+
+ExtraTrees
+Train Accuracy:  1.00,  Test Accuracy:  0.58
+Train Precision:  1.00,  Test Precision:  0.77
+Train Recall:  1.00,  Test Recall:  0.39
+
+LGM
+Train Accuracy:  0.98,  Test Accuracy:  0.56
+Train Precision:  0.99,  Test Precision:  0.61
+Train Recall:  0.98,  Test Recall:  0.38
+
+XGB
+Train Accuracy:  0.91,  Test Accuracy:  0.56
+Train Precision:  0.97,  Test Precision:  0.63
+Train Recall:  0.85,  Test Recall:  0.37
+
+RanFor
+Train Accuracy:  0.53,  Test Accuracy:  0.51
+Train Precision:  0.41,  Test Precision:  0.25
+Train Recall:  0.33,  Test Recall:  0.29
+
+OneVsRestClassifier
+Train Accuracy:  0.63,  Test Accuracy:  0.52
+Train Precision:  0.87,  Test Precision:  0.50
+Train Recall:  0.48,  Test Recall:  0.33
+```
+
 ## Screenshots
 
 ![App Screenshot](https://raw.githubusercontent.com/sujithmannarkkad/Voice-Emotion-Detection/main/image1.png)
