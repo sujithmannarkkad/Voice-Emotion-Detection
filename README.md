@@ -26,7 +26,7 @@ Trained using these features in deep learning and Machine Learning Models and se
 
 Another Approach Tried is by Converting the audio to Image and using CNN, Transfer Learning (VGG19 from imagenet)
 
-I have used full data from training.
+I have used full data for training.
 
 ## Models Tried
 - Custom Deep Learning Model
